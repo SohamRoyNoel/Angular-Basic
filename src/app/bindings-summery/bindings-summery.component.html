@@ -1,0 +1,10 @@
+<h1>bindings-summery works!</h1>
+<input type="text" class="form-control" [(ngModel)]="names" />
+<button
+  class="btn btn-success"
+  [disabled]="candyCreationStatus"
+  (click)="onClickTheButton()"
+>
+  Get my Candy
+</button>
+<p>{{ status }}</p>
