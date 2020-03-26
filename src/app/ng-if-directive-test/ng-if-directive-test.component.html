@@ -1,0 +1,7 @@
+<h1>ng-if-directive-test works!</h1>
+<input type="text" class="form-control" [(ngModel)]="namer" />
+<button class="btn btn-success" (click)="getDataIfClicked()">
+  Got My Candy
+</button>
+<p *ngIf="namerStatus; else NoCandyFound">{{ namer }}</p>
+<ng-template #NoCandyFound> <p>You still have No Candy.</p></ng-template>

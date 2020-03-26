@@ -13,9 +13,10 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { PassingANDUsingDataDemoComponent } from './passing-andusing-data-demo/passing-andusing-data-demo.component';
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 import { BindingsSummeryComponent } from './bindings-summery/bindings-summery.component';
+import { NgIFDirectiveTestComponent } from './ng-if-directive-test/ng-if-directive-test.component';
 
 @NgModule({
-  declarations: [AppComponent, ServerComponent, ServersComponent, StringInterpolationComponent, PropertyBindingDemoComponent, EventBindingComponent, PassingANDUsingDataDemoComponent, TwoWayDataBindingComponent, BindingsSummeryComponent],
+  declarations: [AppComponent, ServerComponent, ServersComponent, StringInterpolationComponent, PropertyBindingDemoComponent, EventBindingComponent, PassingANDUsingDataDemoComponent, TwoWayDataBindingComponent, BindingsSummeryComponent, NgIFDirectiveTestComponent],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
