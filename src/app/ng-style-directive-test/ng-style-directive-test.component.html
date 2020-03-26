@@ -1,0 +1,14 @@
+<h1>ng-style-directive-test works!</h1>
+<input
+  type="button"
+  class="btn btn-primary"
+  value="Check if Candy is Online"
+  (click)="getCandyStatus()"
+/>
+<!-- we need to bine some properties to [ngStyle], so we use property bindings; so we put it in [ ]; actually ngStyle is an attribute -->
+<p [ngStyle]="{ backgroundColor: putStyleColor() }">
+  Candy is : {{ candyStatus }} with id {{ candyCount }}
+</p>
+<p [ngStyle]="{ backgroundColor: putStyleOfflineColor() }">
+  Candy is : {{ candyCountOfflineStatus }} with id {{ candyCountOffline }}
+</p>
